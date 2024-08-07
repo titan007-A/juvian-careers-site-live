@@ -1,0 +1,136 @@
+html{ font: size 16px;}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Roboto',sans-serif;
+  font-size: 1rem;
+  color: #444;
+}
+
+h1,h2,h3,h4{ font-family: 'Inter',sans-serif; color: #222;}
+#navbar {
+  padding-bottom: 1px;
+  padding-top: 0px;
+}
+h1 {
+  text-align: center;
+  
+}
+
+h2 {
+  text-align: center;
+
+}
+
+#banner {
+  width: 100%;
+  max-width: 800;
+  padding-top: 0px;
+  object-fit: cover;
+}
+
+#about {
+  display: flex;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+#description {
+  width: 60%;
+  padding-left: 30px;
+}
+
+#team {
+  width: 40%;
+}
+
+#team-image {
+  border: 4px solid black;
+  margin: 0 px;
+  max-width: 400px;
+  width: 100%;
+}
+
+#about-para {
+  font: bold;
+  size: 10px;
+  padding-right: 48px;
+}
+
+a {
+  text-decoration: none !important;
+  color:#7FA1C3
+}
+ 
+a:hover,a:focus{ color: #4158A6}
+
+.apply-button {
+  margin-bottom: 1px;
+  float: right;
+}
+
+
+.headings {
+  margin: 0 auto;
+}
+
+#footer-section {
+  margin-top: 32px;
+  padding: 8px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+#footer-buttons li {
+  list-style-type: none;
+  padding: 8px;
+  display: inline;
+  color: #999;
+}
+
+#bootcamps-l li {
+  padding: 4px;
+}
+
+#jobs-table {
+  width: 100%; border: 1px solid grey; border-collapse: collapse; padding: 8px
+  
+}
+
+.jobs-data-row td{border-right:1px solid gray ;padding: 8px;}
+
+#jobs-table tr:nth-child(odd){background-color:#EFF6FF;}
+
+.jobs-header-row th{border:1px solid #222 ; background-color:lightblue; text-align: center;padding-left:8px}
+#job-opp {
+   margin:0 auto;
+   margin-top: 32px;
+   max-width: 800px; 
+   padding-left: 8px;
+   
+ }
+
+ #application{ max-width:800px;margin:0 auto; }
+ #application-form{ padding:8px,}
+ #application-form label{margin-left:10px;margin-top:8px;font-weight: 500;}
+ #application-form input{margin-left:10px;padding: 8px;margin-top: 8px;font-size: 1.25rem;border-radius: 8px; border-color: #444;}
+
+ #ccmark{color: #999999;}
+
+ #drop-down select{margin-left: 10px;font-size: 1rem; border-radius: 5px; margin:10px}
+
+#drop-down{ margin-top:10px;margin:5px}
+
+#submit-button{margin-top:10px;margin-left: 20px; }
+
+input[type=submit]
+{
+    /* your styles here, You can just increase its font size below*/
+    font-size: 1.25rem; 
+    border-radius: 10px;
+    font-family: sans-serif; 
+    background-color:blue;
+    color:white
+}
+ 
